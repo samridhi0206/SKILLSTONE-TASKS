@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Signup Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+	<div class="container col-8">
+		<h2>Signup Form</h2>
+		<hr>
+		<br>
+		<form name="myForm" id="myForm">
+			<div class="form-group col-8 ">
+				<label for="firstname">First Name:</label>
+				<input type="text" class="form-control" id="firstname" placeholder="Enter first name" name="firstname">
+				<span id="validate-first-name"></span>
+			</div>
+			<div class="form-group col-8">
+				<label for="lastname">Last Name:</label>
+				<input type="text" class="form-control" id="lastname" placeholder="Enter last name" name="lastname">
+				<span id="validate-last-name"></span>
+
+			</div>
+			<div class="form-group col-8">
+				<label for="email">Email:</label>
+				<input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+				<span id="validate-email"></span>
+
+			</div>
+			<div class="form-group col-8">
+				<label for="contactnumber">Contact Number:</label>
+				<input type="text" class="form-control" id="contactnumber" placeholder="Enter contact number"
+					name="contactnumber">
+				<span id="validate-contact-number"></span>
+
+			</div>
+			<div class="form-group col-8">
+				<label for="marital status">Marital Status:</label>
+				<select class="form-control" id="maritalstatus" name="maritalstatus">
+					<option name="maritalstatus" value="married">Married</option>
+					<option name="maritalstatus" value="unmarried">Unmarried</option>
+					<option name="maritalstatus" value="divorced">Divorced</option>
+					<option name="maritalstatus" value="widowed">Widowed</option>
+					<option name="maritalstatus" value="separated">Separated</option>
+				</select>
+			</div>
+			<div class="form-group col-8">
+				<label for="password">Password:</label>
+				<input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+				<span id="validate-password"></span>
+
+			</div>
+			<div class="form-group col-8">
+				<label for="confirmpassword">Confirm Password:</label>
+				<input type="password" class="form-control" id="confirmpassword" placeholder="Confirm password"
+					name="confirmpassword">
+				<span id="validate-confirm-password"></span>
+			</div>
+			<div class="form-group col-8">
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</div>
+
+		</form>
+	</div>
+	<script src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

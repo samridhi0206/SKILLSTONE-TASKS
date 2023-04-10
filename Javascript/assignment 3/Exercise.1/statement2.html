@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>statement2
+</title>
+<style>
+#text,#text1{
+color:rgb(255,130,157);
+}
+#div
+{
+	width:100%;
+	height:20000px;
+}
+</style>
+</head>
+<body >
+<p id ="text"></p>
+<p id ="text1"></p>
+<div id="div" onclick="myFunction()">
+<label for="input">Name</label>
+<input id="input" type="text"></input><br>
+<br>
+<button id="myinput" onclick="buttonclick()">Click me</button>
+
+</div>
+<script>
+document.getElementById("text").innerHTML="Welcome Grazittians have a Nice day";
+function myFunction() {
+var name= document.getElementById("input").value;
+  document.getElementById("text").innerHTML = name;
+}
+function buttonclick(){
+document.getElementById("text1").innerHTML = "Hey.. you have clicked me";
+document.getElementById("text").style.display = "none";
+}
+</script>
+</body>
+</html>

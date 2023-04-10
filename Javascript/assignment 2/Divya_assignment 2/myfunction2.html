@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myFunction2</title>
+</head>
+<body>
+    <!-- <input type="number" name="salary" id="myinput" placeholder="Enter Salary" required><br>
+    <input type="number" name="salary1" id="myinput1" placeholder="Enter Salary" required><br> -->
+    <button onclick="displaySalary()">Submit</button>
+    <p id="demo"></p>
+    <script>
+        function calculateSalary()
+        {
+            // var salary1=parseInt(document.getElementById("myinput").value);
+            // var salary2=parseInt(document.getElementById("myinput1").value);
+            var salary1=10000;
+            var salary2=5000;
+            var total=salary1+salary2;
+            return total;
+        }
+        function displaySalary()
+        {
+            document.getElementById("demo").innerHTML=calculateSalary();
+        }
+    </script>
+</body>
+</html>

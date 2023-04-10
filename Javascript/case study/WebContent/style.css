@@ -1,0 +1,23 @@
+button{
+    color: white;
+    background-color: blueviolet;
+    width: 348px;
+    height: 30px;
+    border: none;
+    margin-top: -4px;
+    padding: px;
+}
+
+.container{
+    margin-top:5%;
+    margin-left:350px;
+}
+img{
+    border-radius: 20px;
+}
+.button{
+    border-radius: 10px;
+}
+body{
+    background-color: #333333;
+}

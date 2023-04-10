@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrays Function</title>
+  </head>
+  <body>
+    <script>
+      //   var colours = ["red", "orange", "green", "purple", "pink"];
+
+      //   colours.pop();
+      //   console.log(colours);
+
+      //   colours.push("black");
+      //   console.log(colours);
+
+      //   colours.unshift("maroon");
+      //   console.log(colours);
+
+      //   colours.shift();
+      //   console.log(colours);
+
+      //   const name = colours.indexOf("green");
+      //   colours.splice(name, 2);
+      //   console.log(name);
+
+      //   var numberArray = [1, 2, 3, 4, 5, 6];
+
+      //   var joinedArray = numberArray.join("+");
+      //   console.log(joinedArray);
+
+      //   const mergedArray = colours.concat(numberArray);
+      //   console.log(mergedArray);
+
+      var numbers = [1, 2, 3, 4, 5, 6, 7, 16, 34, 56, 33, 77, 98];
+
+      function checkEven(number) {
+        if (number % 2 == 0) {
+          return true;
+        }
+      }
+      let evenNumbers = numbers.filter(checkEven);
+      console.log(evenNumbers);
+    </script>
+  </body>
+</html>

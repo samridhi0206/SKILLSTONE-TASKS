@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Grazitti</title>
+    <style>
+        checkbox {
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Personal Details</h1>
+    </div>
+    <div>
+        <form name="myForm" id="myForm" onsubmit="validateForm()">
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><label for="male">Male</label><input type="radio" id='male' name="gender" value="male">
+                        <label for="female">Female</label><input type="radio" id='female' name="gender" value="female">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="hometown">Hometown</label></td>
+                    <td><select name="hometown">
+                            <option name='hometown' value="">Choose your home town</option>
+                            <option name="hometown" value="chandigarh">Chandigarh</option>
+                            <option name="hometown" value="mumbai">Mumbai</option>
+                            <option name="hometown" value="chennai">Chennai</option>
+                            <option name="hometown" value="pune">Pune</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><textarea name="address" id="address"></textarea></td>
+                </tr>
+                
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                
+
+            </table>
+            <tr>
+                <label for="skills">Skills</label>
+                </label>&nbsp &nbsp &nbsp &nbsp
+                <label for="skill">
+                    JAVA</label>
+                <input type="checkbox" id="Java" name="skill1" value="JAVA">
+                <label for="skill2">HTML</label>
+                <input type="checkbox" id="HTML" name="skill2" value="HTML">
+                <label for="skill3">Oracle</label>
+                <input type="checkbox" id="Oracle" name="skill3" value="Oracle">
+                <br><br>
+            </tr>
+            
+                <button value="submit">Submit</button>
+            
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

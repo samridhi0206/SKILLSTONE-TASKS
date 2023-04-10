@@ -1,0 +1,48 @@
+body {
+  background-image: url("images/blured-background-1920x1080.jpg");
+}
+
+.main {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
+  font-size: 70px;
+}
+
+hr {
+  background-color: aqua;
+  width: 60px;
+  height: 2px;
+}
+
+h3 {
+  color: white;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
+  font-size: 20px;
+}
+
+.top {
+  margin-top: 150px;
+  line-height: 10px;
+}
+
+.bottom {
+  margin-top: 320px;
+}
+
+.main button {
+  border-radius: 35px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(219, 175, 72);
+  /* margin-bottom: 100%; */
+}
+
+/* hr,button {
+  margin-bottom: 100px;
+} */

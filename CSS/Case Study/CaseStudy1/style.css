@@ -1,0 +1,48 @@
+.main {
+  font-family: Lucida Sans Unicode;
+  line-height: 30px;
+}
+
+.main h2 {
+  color: rgb(184, 35, 154);
+  /* font-weight:bold;     */
+  font-family: fantasy;
+  letter-spacing: 2px;
+}
+
+.main p {
+  color: grey;
+}
+
+.main button {
+  border-radius: 3px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  background: linear-gradient(50deg, #f442da, #fc785a, yellow);
+  border-style: none;
+}
+
+.container {
+  text-align: center;
+  font-family: system-ui;
+  line-height: 40px;
+}
+
+.container p {
+  line-height: 30px;
+}
+
+.footer {
+  background: linear-gradient(50deg, #f442da, #f399d5);
+  width: 366px;
+  height: 114px;
+  text-align: center;
+  /* margin-top: 60px; */
+  padding-top: 12px;
+  margin-left: 554px;
+}
+
+.footer h3 {
+  font-weight: bolder;
+}

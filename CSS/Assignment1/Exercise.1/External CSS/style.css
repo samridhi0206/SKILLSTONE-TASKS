@@ -1,0 +1,17 @@
+h1 {
+  color: green;
+}
+
+h3 {
+  color: red;
+}
+
+img {
+  width: 100px;
+}
+
+div {
+  border: 1px solid;
+  padding: 10px;
+  width: 600px;
+}

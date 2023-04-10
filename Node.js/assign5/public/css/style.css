@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+.heading{
+    color:rgba(249, 252, 254, 0.1);
+    font-size: 40px;
+    font-family:serif;  
+    margin:20px;
+}
+.forms{
+    color:rgb(0, 11, 14);
+    font-size: 20px;
+    font-family:serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form_label{
+    margin-top: 10px;
+}
+.form_input{
+    font-size: 20px;
+    font-family:serif;
+}
+.form_button{
+    margin-top: 10px;
+   width: 70px;
+   height: 30px;
+   color: white;
+   background-color: rgb(139, 53, 0,0.5);
+}

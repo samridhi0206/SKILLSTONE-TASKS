@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myFunction</title>
+</head>
+<body>
+    <input type="text" name="name" id="myinput" placeholder="Enter Employee Name" required><br>
+    <button onclick="displayName()">Submit</button>
+    <p id="demo"></p>
+    <script>
+        
+        function displayName()
+        {
+            var empName= document.getElementById("myinput").value;
+            document.getElementById("demo").innerHTML="Employee name is "+empName;
+        }
+    </script>
+</body>
+</html>

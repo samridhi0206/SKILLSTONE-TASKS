@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>"Welcome to Grazitti"</title>
+    <style>
+      .box {
+        border-style: solid;
+        width: 300px;
+        padding: 20px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="box">
+        <h1>Personal details</h1>
+
+        <label for="name">Name </label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="name" class="name" />
+        <br /><br />
+
+        <label for="gender">Gender</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Male
+        <input type="radio" id="gender" name="gender" />
+        Female
+        <input type="radio" id="gender" name="gender" />
+        <br /><br />
+
+        <label id="select">Home Town</label>
+        &nbsp;&nbsp;
+        <select name="town">
+          <option value="New Delhi">New Delhi</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Kolkata">Kolkata</option>
+          <option value="Chennai">Chennai</option>
+          <option value="Hyderabad">Hyderabad</option>
+        </select>
+        <br /><br />
+
+        <label for="address">Address</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <textarea id="address"></textarea>
+        <br /><br />
+
+        <label for="skills">Skills</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label> Java</label>
+        <input type="checkbox" id="skills" name="skills" />
+        <label> HTML</label>
+        <input type="checkbox" id="skills" name="skills" />
+        <label> Oracle</label>
+        <input type="checkbox" id="skills" name="skills" />
+        <br /><br />
+
+        <label for="password">Password</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" id="password" />
+        <br /><br />
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button>Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

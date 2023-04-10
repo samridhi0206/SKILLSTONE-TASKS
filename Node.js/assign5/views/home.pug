@@ -1,0 +1,20 @@
+html
+    head
+        title Form 
+        link(rel='stylesheet', href='/css/style.css')
+    body
+        h1(class='heading') FORM 
+        form(action='/form-submit',method='post' class='forms')
+            label(for='name') Name
+            br
+            input(type='text',id='name',name='Name' class='form_input')
+            br
+            label(for='username',class='form_label') Username
+            br
+            input(type='text',id='username',name='UserName' class='form_input')
+            br
+            label(for='password',class='form_label') Password
+            br
+            input(type='text',id='password',name='Password' class='form_input')
+            br
+            button(type='submit' class='form_button') Submit 

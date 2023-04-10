@@ -1,0 +1,73 @@
+body{
+    background-image: url("images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    z-index:1;
+}
+
+.todolist,
+.grocery {
+    text-align: left;
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    /* vertical-align: middle; */
+    border-radius: 10px;
+    border: none;
+    width: 20rem;
+    height: 28rem;
+    z-index: 10;
+    box-shadow: 0 1px 5px 2px black
+}
+
+.todolist h1, .grocery h1{
+    text-align: center;
+}
+
+.todolist input{
+    border-radius: 7px;
+    border: 2px solid black;
+    padding: 3px;
+    width: 16rem;
+    height: 2rem;
+}
+
+.todolist button{
+    margin-top: 1em;
+    border-radius: 5px;
+    width: 10em;
+    height: 3em;
+    background-color: navy;
+    color: white;
+    border: white;
+}
+.todolist button:hover{
+    background-color: powderblue;
+    color: black;
+    border: 2px solid black;
+}
+.todolist .button{
+    text-align: right;
+    margin-right: 2em;
+}
+
+.grocery .input{
+    border: 2px solid whitesmoke;
+    height: 2em;
+    vertical-align: bottom;
+    border-radius: 0.7rem;
+}
+
+#checkbox:checked+ label{
+    text-decoration: line-through;
+    color: rgb(85, 89, 92);
+}

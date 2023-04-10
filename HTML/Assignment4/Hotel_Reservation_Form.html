@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hotel Reservation Form</title>
+    <style>
+      .star {
+        color: red;
+      }
+
+      .col {
+        display: flex;
+      }
+
+      .heading {
+        text-align: center;
+        width: 25%;
+        color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="success.html">
+      <h1 class="heading">Hotel Reservation</h1>
+      <div class="col">
+        <div class="col1">
+          <label for="fname">First name <span class="star"> * </span></label>
+          <br />
+          <input type="text" id="fname" name="fname" />
+        </div>
+        &nbsp;&nbsp;
+
+        <div class="col2">
+          <label for="lname">Last name <span class="star"> * </span></label>
+          <br />
+          <input type="text" id="lname" name="fname" />
+          <br /><br />
+        </div>
+      </div>
+
+      <label for="phone">Phone <span class="star"> * </span></label>
+      <br />
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+      />
+      <br /><br />
+
+      <label for="Email">Email <span class="star"> * </span></label>
+      <br />
+      <input type="email" id="Email" name="email" />
+      <br /><br />
+
+      <label for="Adate">Arrival date <span class="star"> * </span></label>
+      <br />
+      <input type="date" id="Adate" name="Adate" />
+      <br /><br />
+
+      <label for="Ddate">Departure date <span class="star"> * </span></label>
+      <br />
+      <input type="date" id="Ddate" name="Ddate" />
+      <br /><br />
+
+      <label for="adults">Number of adults <span class="star"> * </span></label>
+      <br />
+      <input type="number" id="adults" name="adults" />
+      <br /><br />
+
+      <label for="children">Number of children</label>
+      <br />
+      <input type="number" id="children" name="children" />
+      <br /><br />
+
+      <label for="comments">Questions/Comments</label>
+      <br />
+      <textarea rows="10" cols="50"></textarea>
+      <br /><br />
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

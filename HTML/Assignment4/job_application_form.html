@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job application form</title>
+    <style>
+      input[type="text"],
+      input[type="number"] {
+        width: 157px;
+        margin: 5px 5px 5px 0px;
+        border: 1px solid black;
+      }
+      input[type="tel"],
+      input[type="mail"],
+      textarea,
+      input[type="date"],
+      #salary {
+        width: 327px;
+        margin: 5px 5px 5px 0;
+        border: 1px solid black;
+      }
+
+      .form {
+        max-width: 50%;
+      }
+      span {
+        color: red;
+      }
+      .dis {
+        display: flex;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      #company {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <form action="success.html">
+        <h2>Job Application With Resume Upload</h2>
+        <h3>Contact Information</h3>
+
+        <div class="dis">
+          <div>
+            <label for="Firstname">First name<span>*</span></label
+            ><br />
+            <input type="text" id="Firstname" />
+          </div>
+          <div>
+            <label for="Lastname">Last name<span>*</span></label
+            ><br />
+            <input type="text" id="Lastname" />
+          </div>
+        </div>
+        <br />
+
+        <label for="mail">E-mail<span>*</span></label
+        ><br />
+        <input type="mail" id="mail" />
+        <br />
+        <br />
+        <label for="Phone">Phone<span>*</span></label
+        ><br />
+        <input type="tel" id="Phone" pattern="[0-9]{5}-[0-9]{5}" />
+        <br />
+        <br />
+        <h3>Position</h3>
+        <label for="Position">Position you are applying for<span>*</span></label
+        ><br />
+        <input type="text" id="position" />
+        <br />
+        <br />
+        <label for="Resume">Resume upload</label><br />
+        <input type="file" id="resume" />
+        <br /><br />
+        <label for="website">Portfolio website</label><br />
+        <input type="text" id="website" />
+        <br />
+        <br />
+        <label for="salary">Salary requirements</label><br />
+        <input type="text" id="salary" />
+        <br />
+        <br />
+        <label for="date">When can you start?</label><br />
+        <input type="date" id="date" />
+        <br />
+        <br />
+        <label for="relocate">Are you willing to relocate?</label><br />
+        <input type="radio" name="relocate" value="Yes" />
+        <label for="Yes">Yes</label><br />
+        <input type="radio" name="relocate" value="No" />
+        <label for="No">No</label><br />
+        <input type="radio" name="relocate" value="Not Sure" />
+        <label for="Not Sure">Not Sure</label>
+        <br /><br />
+        <label for="comapny">Last company you worked for</label><br />
+        <input type="text" id="company" /><br /><br />
+
+        <label for="text">Comments</label>
+        <br /><textarea id="company"></textarea><br />
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

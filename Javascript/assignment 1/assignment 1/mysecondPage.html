@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySecondPage</title>
+</head>
+<body>
+    <input type="text" id="myInput" placeholder="Enter grade">
+    <button onclick="myFunction()">Click</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){
+            var grade=document.getElementById("myInput").value;
+                switch(grade)
+                    {
+                        case "A++":
+                        grade="Excellent";
+                        break;
+                        case "A+":
+                        grade="Very Good";
+                        break;
+                        case "A":
+                        grade="Good";
+                        break;
+                        case "B+":
+                        grade="Average";
+                        break;
+                        default:
+                        grade="No Information";
+                    }
+                document.getElementById("demo").innerHTML=grade;
+                }
+    </script>      
+</body>
+</html>

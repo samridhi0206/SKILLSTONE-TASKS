@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<label for="name">Name</label>
+<input id="text" type="text"></input><br>
+<p id="output"></p>
+<button onclick="find()" type="button" id="myBtn">Enter </button>
+<p id="onOkClick" style="display:none">You have confirmed to continue</p>
+<p id="onCancelClick" style="display:none">cannot proceed further you cancelled it</p>
+<script>
+function find(){
+var name= document.getElementById("text").value;
+var output;
+if(name == ""){
+alert("The name cannot be empty");
+}
+else if(name=="Vishal"){
+
+    
+    if(confirm("You have entered Vishal press OK to continue"))
+    {
+   document.getElementById("onOkClick").style.display="block";
+         document.getElementById("onCancelClick").style.display="none"
+    }
+    else
+    {
+   document.getElementById("onOkClick").style.display="none";
+         document.getElementById("onCancelClick").style.display="block"
+}
+
+}
+else{
+alert("Invalid Name");
+}
+}
+</script>
+</body>
+</html>
